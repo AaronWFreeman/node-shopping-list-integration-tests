@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: QqC9tUkeCeN76IMo1KnEcf/5l/Y1Tzd6siISW9sW6xXX3SmAEIsZxFvyL+zakh2DaRIvNZYOTQpTa8WNhsGlvfzduConHh+q283C7YJDG9A0nES1bm5pteWml6q4sr/hO9eqLGuWYpjkiUj0g++glkeSjqp3CmQ8SH3HKnV+eNAYhxxLFyvUmK0RmKKWvhz+PPYuLIBDcDVsbEmm+N/tOTZihtkwEOtT+REDWrhVIjrq8qtRs31aOGBPNdGxbWs9CyXk9PjRVGKhDj5hdPlL16BC870tAHj/UgkpK1vfqZ5krc8s0nQNdmMPN4W812kABtLQB8b/N2MLe1EajbY6pQT3Q7jAj9iqAWkWalb+2fTP1oc+JAlC8zlFY+xOoGgOSz/a46j66wNCYvsYB3qtNxagLMWTpWV8nHUWfSl50xzBV7kqsTcZlZAX3aa4OI8rhhFxJ61XVxISjTeQfWsWJzpAcH9mvXvIiaMR/Ukwp/qzxfV0jV3a/Gw3xuRQajwfjXSr8qBPN1BJokr7JQooQMcv2r+6kbLhogv4HD+NYRhPGXpn8P87s1u8hp7u1zMNIf+e6uAhYdbjMUZh+cYPgZrBfLJ5KZ9xdJyNlTBWGOyX0wrB98ddlQiRnQbyHVt1kU3Q4jM7rIhuLSlwLy/WStsHVPad9LO0dxy8ZR4d4Bc=
+  app: murmuring-stream
+  on:
+    repo: AaronWFreeman/node-shopping-list-integration-tests
